@@ -11,4 +11,4 @@ All implementations in C++:
 * Hash table
 * Huffman codes
 
-Each folder includes a Readme with brief description of implementation and instructions to run the program.
+Each folder includes a Readme with a brief description of implementation and instructions to run the program.
