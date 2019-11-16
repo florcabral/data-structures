@@ -1,7 +1,6 @@
 # Hash table
 
-For this assignment I implemented the following functions for a hash table data
-structure (in hash.cpp):
+For this assignment I implemented the following functions for a hash table data structure (in hash.cpp):
 
 * **init_table** - creates and initializes a hash_table structure.
 * **init_node** - creates and initializes a hash_node that will occupy a hash table bucket.
