@@ -3,17 +3,17 @@
 For this assignment I implemented an object oriented graphs data
 structure (in graphs.cpp), including the following functions:
 
-* **Node::setColor** - sets the 'color' of a node, which refers to its discovery (visited) state.
-* **Node::getDiscoveryInformation** - returns a node's discovery state and time.
-* **Node::clear** - resets node to undiscovered state.
-* **Node::isAncestor** - returns true if the given node is reachable by traversing another node's predecessor list.
-* **Node::setPredecessor** - sets a node's predecessor node in the spanning tree (node from which another was discovered).
-* **Edge::setType** - sets the edge type to the given value (undiscovered, tree, back, forward, or cross edge).
-* **Graph::clear** - resets all of graph's nodes and edges to undiscovered state.
-* **Graph::dfs** - runs a depth-first search from the indicated start node, and explores all reachable nodes.
-* **Graph::bfs** - 2 implementations: one simple BFS from starting node, another that stops when given target node is reached.
+* **Node::setColor** - sets the 'color' of a node, which refers to its discovery (visited) state
+* **Node::getDiscoveryInformation** - returns a node's discovery state and time
+* **Node::clear** - resets node to undiscovered state
+* **Node::isAncestor** - returns true if the given node is reachable by traversing another node's predecessor list
+* **Node::setPredecessor** - sets a node's predecessor node in the spanning tree (node from which another was discovered)
+* **Edge::setType** - sets the edge type to the given value (undiscovered, tree, back, forward, or cross edge)
+* **Graph::clear** - resets all of graph's nodes and edges to undiscovered state
+* **Graph::dfs** - runs a depth-first search from the indicated start node, and explores all reachable nodes
+* **Graph::bfs** - 2 implementations: one simple BFS from starting node, another that stops when given target node is reached
 
-To run the tests:
+## To run the tests:
 
 Run `make`, then one of the following:
 

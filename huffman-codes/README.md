@@ -3,17 +3,17 @@
 For this assignment I implemented the following functions for a Huffman Codes data
 structure (in huffman.cpp):
 
-* **create_leaf** - initializes a leaf node in the Huffman codec tree from heap memory and returns a pointer to it.
-* **combine_nodes** - initializes an internal node in the Huffman codec tree from heap memory and returns a pointer to it.
-* **increment_lookup** - adds one to the value associated with the given symbol.
-* **load_queue** - turns each key/value pair in the lookup table into a node pointer, and pushes it into the provided priority queue.
-* **build_tree** - creates a Huffman codec tree using the values contained in the provided priority queue.
-* **build_encoding_table** - creates a lookup table for the encoding process.
-* **encode** - returns an encoded string using the provided encoding lookup table on the input string.
-* **decode** - returns a decoded string using the provided Huffman codec tree and input string.
+* **create_leaf** - initializes a leaf node in the Huffman codec tree from heap memory and returns a pointer to it
+* **combine_nodes** - initializes an internal node in the Huffman codec tree from heap memory and returns a pointer to it
+* **increment_lookup** - adds one to the value associated with the given symbol
+* **load_queue** - turns each key/value pair in the lookup table into a node pointer, and pushes it into the provided priority queue
+* **build_tree** - creates a Huffman codec tree using the values contained in the provided priority queue
+* **build_encoding_table** - creates a lookup table for the encoding process
+* **encode** - returns an encoded string using the provided encoding lookup table on the input string
+* **decode** - returns a decoded string using the provided Huffman codec tree and input string
 
 
-To run the tests:
+## To run the tests:
 
 Run `make`, then one of the following:
 

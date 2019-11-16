@@ -3,14 +3,14 @@
 For this assignment I implemented the following functions for a linked list data
 structure (in linked_list.cpp):
 
-* **init_node** - creates a new node and returns a pointer to it.
-* **report** - returns a string representation of the list.
-* **append** and **append_data** - adds to the end of the list.
-* **insert** and **insert_data** - inserts into any spot in the list.
-* **size** - returns the current size of the list.
-* **contains** - returns true if the list contains a given value.
+* **init_node** - creates a new node and returns a pointer to it
+* **report** - returns a string representation of the list
+* **append** and **append_data** - adds to the end of the list
+* **insert** and **insert_data** - inserts into any spot in the list
+* **size** - returns the current size of the list
+* **contains** - returns true if the list contains a given value
 
-To run the tests:
+## To run the tests:
 
 Run `make`, then one of the following:
 

@@ -2,16 +2,16 @@
 
 For this assignment I implemented the following functions for a hash table data structure (in hash.cpp):
 
-* **init_table** - creates and initializes a hash_table structure.
-* **init_node** - creates and initializes a hash_node that will occupy a hash table bucket.
-* **set_kvp** - establishes a mapping between the given key and value pair in the provided hash table.
-* **load** - returns a load factor describing how 'full' the table is.
-* **get_val** - returns value stored given a key.
-* **contains** - contains returns true if the table has a non-deleted node whose hashcode matches the given key's hashcode.
-* **remove** - marks as 'deleted' any existing non-deleted hash_node with the same hashcode as the provided key's hashcode.
-* **resize** - creates a new underlying backing array with the provided new capacity, rehashes the existing backing array into the new array.
+* **init_table** - creates and initializes a hash_table structure
+* **init_node** - creates and initializes a hash_node that will occupy a hash table bucket
+* **set_kvp** - establishes a mapping between the given key and value pair in the provided hash table
+* **load** - returns a load factor describing how 'full' the table is
+* **get_val** - returns value stored given a key
+* **contains** - contains returns true if the table has a non-deleted node whose hashcode matches the given key's hashcode
+* **remove** - marks as 'deleted' any existing non-deleted hash_node with the same hashcode as the provided key's hashcode
+* **resize** - creates a new underlying backing array with the provided new capacity, rehashes the existing backing array into the new array
 
-To run the tests:
+## To run the tests:
 
 Run `make`, then one of the following:
 

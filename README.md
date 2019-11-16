@@ -5,7 +5,7 @@ All implementations in C++:
 
 * Linked list
 * Priority queue
-* Sorting
+* Sorting algorithms
 * Binary search tree
 * Graph
 * Hash table

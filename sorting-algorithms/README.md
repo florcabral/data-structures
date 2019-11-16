@@ -7,7 +7,7 @@ For this assignment I fully implemented the following sorting algorithms (in sor
 * **quicksort** 
 * **mergesort** 
 
-To run the tests:
+## To run the tests:
 
 Run `make`, then one of the following:
 
