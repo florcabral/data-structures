@@ -2,10 +2,10 @@
 
 For this assignment I fully implemented the following sorting algorithms (in sorting.cpp):
 
-**bubble sort** 
-**insertion sort** 
-**quicksort** 
-**mergesort** 
+* **bubble sort** 
+* **insertion sort** 
+* **quicksort** 
+* **mergesort** 
 
 To run the tests:
 
@@ -19,5 +19,5 @@ Run `make`, then one of the following:
 
     1. `bubble`
     2. `quick`
-    3. `marge`
+    3. `merge`
     4. `mystery`
