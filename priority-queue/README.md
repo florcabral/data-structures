@@ -3,10 +3,10 @@
 For this assignment I implemented a priority queue as a double linked list (in pq.cpp), 
 including the following functions:
 
-**init_priority_queue** - initializes a new priority queue.
-**insert** - inserts element with a given numeric priority.
-**remove** - removes the highest priority element.
-**peek** - peeks at the highest priority element.
+- **init_priority_queue** - initializes a new priority queue.
+- **insert** - inserts element with a given numeric priority.
+- **remove** - removes the highest priority element.
+- **peek** - peeks at the highest priority element.
 
 To run the tests:
 
